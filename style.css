@@ -1,0 +1,158 @@
+@import url(normalize.css);
+
+body {
+  font-family: roboto, sans-serif;
+}
+
+.main-header {
+  background-color: #007765;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 84px;
+}
+
+footer {
+  background-color: #333333;
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  height: 176px;
+  padding-top: 84px;
+  width: 100vh;
+}
+
+.logo-container {
+  display: inline;
+  width: 50vw;
+}
+
+.nav-container {
+  display: inline;
+  width: 50vw;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  padding-top: 17px;
+  margin-left: 10%;
+}
+
+.nav {
+  font-size: 24px;
+  font-weight: 500;
+  float: right;
+  margin: auto 10% auto 0;
+  padding-top: 32px;
+  color: #ffffff;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.intro {
+  width: 100vw;
+  margin-top: 84px;
+  background-image: url(img/intro.png);
+  height: 300px;
+  background-size: contain;
+  color: white;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.intro-text {
+  padding-top: 110px;
+}
+
+.problem-container,
+.team-container {
+  width: 100vw;
+  background-color: #eeeeee;
+  padding-bottom: 50px;
+  padding-top: 60px;
+  margin-bottom: 0;
+}
+
+.text-container {
+  font-size: 32px;
+  width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.header {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+}
+
+.ppc-logo {
+  float: left;
+  padding-right: 30px;
+}
+
+.quote-container {
+  background-image: url(img/quote-image.png);
+  background-size: contain;
+  height: 483px;
+  vertical-align: middle;
+  margin-top: 0;
+  width: 100vw;
+}
+
+.quote {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1219px;
+  font-style: italic;
+  font-weight: 500;
+  color: white;
+  font-size: 48px;
+  padding-top: 166px;
+  text-align: center;
+}
+
+.images-container {
+  width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.img-container {
+  display: inline-block;
+  padding-left: 90px;
+}
+
+.img-container .name,
+.description {
+  text-align: center;
+}
+
+.name {
+  color: #007765;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.introducing-container {
+  width: 100vw;
+}
