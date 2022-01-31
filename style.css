@@ -5,12 +5,14 @@ body {
 }
 
 .main-header {
-  width: 100%;
+  width: 1219px;
   padding-top: 20px;
   padding-bottom: 17px;
   background-color: #007765;
   position: fixed;
   top: 0;
+  left: 50%;
+  margin-left: -610px;
 }
 
 .logo {
@@ -39,7 +41,10 @@ body {
 
 
 .main-container {
-  width: 100%;
+  max-width: 1219px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 0;
 }
 
@@ -70,7 +75,7 @@ body {
 }
 
 .intro-container {
-  padding-top: 60px;
+    padding-top: 60px;
   padding-bottom: 60px;
 }
 
