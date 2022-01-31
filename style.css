@@ -45,7 +45,7 @@ body {
 
 
 .main-container {
-  max-width: 1219px;
+  width: 1219px;
   box-sizing: border-box;
   margin-top: 0;
   margin-left: auto;
