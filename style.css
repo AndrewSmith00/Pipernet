@@ -42,7 +42,6 @@ body {
 
 .main-container {
   max-width: 1219px;
-  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
