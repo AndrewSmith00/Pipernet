@@ -4,6 +4,11 @@ body {
   font-family: roboto, arial, sans-serif;
 }
 
+.main-header_container {
+  display: flex;
+  justify-content: center;
+}
+
 .main-header {
   width: 1219px;
   padding-top: 20px;
@@ -11,8 +16,6 @@ body {
   background-color: #007765;
   position: fixed;
   top: 0;
-  left: 50%;
-  margin-left: -610px;
 }
 
 .logo {
